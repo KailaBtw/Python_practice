@@ -7,7 +7,7 @@ version: "1.0"
 #Specify inspection profile for code analysis
 profile:
   name: qodana.starter
-
+  QODANA_TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcmdhbml6YXRpb24iOiIzalFWNCIsInByb2plY3QiOiJBbDV5eCIsInRva2VuIjoiM294MWwifQ.PV6Cy4RCfHkj1b-9JpVdftTTjq0d3pFplDPYXsrs4o8
 #Enable inspections
 #include:
 #  - name: <SomeEnabledInspectionId>
