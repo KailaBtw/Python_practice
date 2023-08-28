@@ -13,6 +13,8 @@ while not invalid_selection:
     print('4. Convert Time to Seconds')
     print('5. Convert Triangle side length to Area')
     print('6. Kennel Script')
+    print('7. Box Script')
+    print('8. Other')
 
     print('Exit. Exit Application')
     selection = input('Selection: ')
