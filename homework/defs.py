@@ -57,7 +57,8 @@ def select_kennel():
         print('1. Add Dog')
         print('2. Rename Dog')
         print('3. Change Age')
-        print('3. Check Age')
+        print('4. Check Age')
+        print('5. Print Dog Info')
         print('Exit. Return to main menu\n')
         choice = input('Selection: ')
         if choice == '1':
@@ -68,7 +69,18 @@ def select_kennel():
             Kennel.change_age()
         elif choice == '4':
             Kennel.check_age()
+        elif choice == '5':
+            Kennel.__str__()
         elif choice == 'Exit':
             kennel_time = False
         else:
             print('Invalid Selection')
+
+
+def countdown(__time):
+    while __time > 0:
+        mins, secs = divmod(__time, 60)
+        timer = '{:02d}:{:02d}'.format(mins, secs)
+        print(timer, end="\r")
+        time.sleep(1)
+        __time -= 1
