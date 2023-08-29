@@ -80,7 +80,7 @@ def select_kennel():
 def box_selection():
     box_time = True
     while box_time:
-        print('Please select which Box Application you would like to run:\n')
+        print('Please select which Box Application you would like to runa:\n')
         print('1. Add Box')
         print('2. Remove Box')
         print('3. Print Box Info')
