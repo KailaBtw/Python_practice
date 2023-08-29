@@ -36,6 +36,9 @@ while not invalid_selection:
     elif selection == '6':
         select_kennel()
         input(print('Press enter to continue'))
+    elif selection == '7':
+        box_selection()
+        input(print('Press enter to continue'))
     elif selection == 'Exit':
         print('Exiting Application.')
         invalid_selection = True

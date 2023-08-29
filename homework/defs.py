@@ -76,6 +76,26 @@ def select_kennel():
         else:
             print('Invalid Selection')
 
+def box_selection():
+    box_time = True
+    while box_time:
+        print('Please select which Box Application you would like to run:\n')
+        print('1. Add Box')
+        print('2. Remove Box')
+        print('3. Print Box Info')
+        print('Exit. Return to main menu\n')
+        choice = input('Selection: ')
+        if choice == '1':
+            Box.make_box()
+        elif choice == '2':
+            Box.remove_box()
+        elif choice == '3':
+            Box.__str__()
+        elif choice == 'Exit':
+            box_time = False
+        else:
+            print('Invalid Selection')
+
 
 def countdown(__time):
     while __time > 0:
